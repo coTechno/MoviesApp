@@ -10,7 +10,12 @@
   align-items: center;
   padding: 40px;
   color: #d1cfcf;
+<<<<<<< HEAD
   height: fit-content;
+=======
+  height: 88vh;
+  flex-wrap: wrap;
+>>>>>>> 299bdbbcba43de04f3c937b4ba20ea6992082862
   font-family: 'Inter', sans-serif;
   }
   h1{
@@ -41,6 +46,7 @@
     justify-content: flex-start;
     padding: 10px;
   }
+<<<<<<< HEAD
   @media only screen and (max-width: 877px) {
     .movie-details-container{
       flex-wrap: wrap;
@@ -50,3 +56,6 @@
       justify-content: space-between;
     }
   }
+=======
+  
+>>>>>>> 299bdbbcba43de04f3c937b4ba20ea6992082862
