@@ -40,9 +40,9 @@ const Home = () => {
                         <div key={movie.imdbID} className="movie-card">
                             <img src={movie.Poster} alt={movie.Title} />
                             <div className="movie-details">
-                                <h3><span>Title: </span>{movie.Title}</h3>
-                                <h3><span>Type: </span>{movie.Type}</h3>
-                                <h3><span>Year:</span>{movie.Year}</h3>
+                                <h3><span>Title : </span>{movie.Title}</h3>
+                                <h3><span>Type : </span>{movie.Type}</h3>
+                                <h3><span>Year :</span>{movie.Year}</h3>
                                 <Link to={`/movies/${movie.imdbID}`}  className="movie-link">
                                     <button className='knowMoreBtn'>Know More</button>
                                 </Link>
