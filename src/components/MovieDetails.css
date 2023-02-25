@@ -1,11 +1,16 @@
+.movie-details-page{
+  height: 100vh;
+  background-color: #1a1a1a;
+}
 .movie-details-container {
+  height: fit-content;
+  background-color: #1a1a1a;
   display: flex;
   flex-direction: inherit;
   align-items: center;
   padding: 40px;
-  background-color: #1a1a1a;
   color: #d1cfcf;
-  height: 88vh;
+  height: fit-content;
   font-family: 'Inter', sans-serif;
   }
   h1{
@@ -36,4 +41,12 @@
     justify-content: flex-start;
     padding: 10px;
   }
-  
+  @media only screen and (max-width: 877px) {
+    .movie-details-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .info-section{
+      justify-content: space-between;
+    }
+  }
