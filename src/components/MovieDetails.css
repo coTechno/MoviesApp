@@ -6,6 +6,7 @@
   background-color: #1a1a1a;
   color: #d1cfcf;
   height: 88vh;
+  flex-wrap: wrap;
   font-family: 'Inter', sans-serif;
   }
   h1{
